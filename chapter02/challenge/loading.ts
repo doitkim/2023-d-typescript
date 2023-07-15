@@ -20,7 +20,7 @@
   function printLoginState(state: ResourceLoadState) {
     switch (state.state) {
       case "loading":
-        console.log("👀 loading...");
+        console.log("loading...");
         break;
       case "success":
         console.log(state.response.body);
